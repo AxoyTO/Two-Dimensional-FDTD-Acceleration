@@ -1,0 +1,18 @@
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 80 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 80 mpi_fdtd-2d
+

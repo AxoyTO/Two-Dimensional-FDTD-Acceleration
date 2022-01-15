@@ -1,0 +1,13 @@
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
