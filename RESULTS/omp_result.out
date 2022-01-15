@@ -1,0 +1,1392 @@
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830421: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=20 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=20 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:25:59 2021
+Job was executed on host(s) <polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:26:00 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:26:00 2021
+Terminated at Mon Dec  6 14:26:46 2021
+Results reported at Mon Dec  6 14:26:46 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=20 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   167.24 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             17.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                24
+    Run time :                                   51 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+Time in seconds = 20.970905
+Time in seconds = 10.638904
+Time in seconds = 5.416054
+Time in seconds = 2.830335
+Time in seconds = 2.594371
+Time in seconds = 2.596116
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830422: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:27:32 2021
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:27:32 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:27:32 2021
+Terminated at Mon Dec  6 14:28:18 2021
+Results reported at Mon Dec  6 14:28:18 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   191.72 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   49 sec.
+    Turnaround time :                            46 sec.
+
+The output (if any) follows:
+
+Time in seconds = 21.048051
+Time in seconds = 10.599706
+Time in seconds = 5.379243
+Time in seconds = 2.897922
+Time in seconds = 2.537587
+Time in seconds = 2.417907
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830423: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:30:43 2021
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:30:43 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:30:43 2021
+Terminated at Mon Dec  6 14:31:28 2021
+Results reported at Mon Dec  6 14:31:28 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   184.89 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   47 sec.
+    Turnaround time :                            45 sec.
+
+The output (if any) follows:
+
+Time in seconds = 20.956425
+Time in seconds = 10.502868
+Time in seconds = 5.282087
+Time in seconds = 2.847898
+Time in seconds = 2.367889
+Time in seconds = 2.134800
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830424: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:33:51 2021
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:33:52 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:33:52 2021
+Terminated at Mon Dec  6 14:34:38 2021
+Results reported at Mon Dec  6 14:34:38 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   184.47 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   48 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+Time in seconds = 21.006385
+Time in seconds = 10.653862
+Time in seconds = 5.346677
+Time in seconds = 2.906620
+Time in seconds = 2.410187
+Time in seconds = 2.181330
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830425: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:38:27 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:38:28 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:38:28 2021
+Terminated at Mon Dec  6 14:39:14 2021
+Results reported at Mon Dec  6 14:39:14 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   190.01 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   50 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+Time in seconds = 21.088947
+Time in seconds = 10.565052
+Time in seconds = 5.327265
+Time in seconds = 2.822940
+Time in seconds = 2.494451
+Time in seconds = 2.233210
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830426: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:44:00 2021
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:44:00 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:44:00 2021
+Terminated at Mon Dec  6 14:44:45 2021
+Results reported at Mon Dec  6 14:44:45 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   185.28 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   52 sec.
+    Turnaround time :                            45 sec.
+
+The output (if any) follows:
+
+THREADS: 1
+Time in seconds = 21.074678
+THREADS: 1
+Time in seconds = 10.547966
+THREADS: 1
+Time in seconds = 5.298913
+THREADS: 1
+Time in seconds = 2.763902
+THREADS: 1
+Time in seconds = 2.347030
+THREADS: 1
+Time in seconds = 2.153281
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830427: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:47:39 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:47:40 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:47:40 2021
+Terminated at Mon Dec  6 14:48:26 2021
+Results reported at Mon Dec  6 14:48:26 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   187.59 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   45 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 20.922136
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.465417
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.284777
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.735011
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.372556
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.282249
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830428: <#BSUB -n 5;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 5;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err; OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:50:18 2021
+Job was executed on host(s) <5*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:50:19 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:50:19 2021
+Terminated at Mon Dec  6 14:51:08 2021
+Results reported at Mon Dec  6 14:51:08 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 5
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   458.97 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   53 sec.
+    Turnaround time :                            50 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 20.918941
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.551914
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.282289
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.738577
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.286989
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.044678
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.004255
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 1.294597
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830431: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[cpu(128)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[cpu(128)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:55:37 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:55:38 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:55:38 2021
+Terminated at Mon Dec  6 14:56:31 2021
+Results reported at Mon Dec  6 14:56:31 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+#BSUB -R "affinity[cpu(128)]"
+/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   749.62 sec.
+    Max Memory :                                 27 MB
+    Average Memory :                             19.80 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   55 sec.
+    Turnaround time :                            54 sec.
+
+The output (if any) follows:
+
+['/polusfs/lsf/openmp/launchOpenMP.py', './Job_OMP']
+==========================
+THREADS: 1
+Time in seconds = 20.907845
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.472722
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.312322
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 3.170077
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.434511
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 3.503529
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.186899
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 4.048864
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830432: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(4)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(4)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:57:57 2021
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 14:57:58 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 14:57:58 2021
+Terminated at Mon Dec  6 14:58:59 2021
+Results reported at Mon Dec  6 14:58:59 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+#BSUB -R "affinity[core(4)]"
+/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   526.97 sec.
+    Max Memory :                                 27 MB
+    Average Memory :                             19.73 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   64 sec.
+    Turnaround time :                            62 sec.
+
+The output (if any) follows:
+
+['/polusfs/lsf/openmp/launchOpenMP.py', './Job_OMP']
+==========================
+THREADS: 1
+Time in seconds = 20.903440
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.473233
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.349103
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 6.466605
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 5.366845
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 3.814992
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 4.154940
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 4.437128
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830433: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(13)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(13)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:00:22 2021
+Job was executed on host(s) <polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:00:23 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 15:00:23 2021
+Terminated at Mon Dec  6 15:01:12 2021
+Results reported at Mon Dec  6 15:01:12 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+#BSUB -R "affinity[core(13)]"
+/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   409.43 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   53 sec.
+    Turnaround time :                            50 sec.
+
+The output (if any) follows:
+
+['/polusfs/lsf/openmp/launchOpenMP.py', './Job_OMP']
+==========================
+THREADS: 1
+Time in seconds = 20.920858
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.535376
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.302379
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.752156
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.351589
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.127435
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 1.937902
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 1.895929
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830434: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(20)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(20)]";/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP ;OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:01:41 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:01:41 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 15:01:41 2021
+Terminated at Mon Dec  6 15:02:29 2021
+Results reported at Mon Dec  6 15:02:29 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+#BSUB -R "affinity[core(20)]"
+/polusfs/lsf/openmp/launchOpenMP.py ./Job_OMP 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   469.56 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   55 sec.
+    Turnaround time :                            48 sec.
+
+The output (if any) follows:
+
+['/polusfs/lsf/openmp/launchOpenMP.py', './Job_OMP']
+==========================
+THREADS: 1
+Time in seconds = 20.905084
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.470146
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.278698
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.841220
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.370473
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.197876
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.009236
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 1.282353
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830435: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(20)]";  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;#BSUB -R "affinity[core(20)]";  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:08:05 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:08:06 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 15:08:06 2021
+Terminated at Mon Dec  6 15:08:55 2021
+Results reported at Mon Dec  6 15:08:55 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+#BSUB -R "affinity[core(20)]"
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   468.69 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   51 sec.
+    Turnaround time :                            50 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 20.918942
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.471374
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.277168
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.717397
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.464417
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.088596
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.010209
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 1.363949
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 830436: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:18:40 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Mon Dec  6 15:18:40 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Mon Dec  6 15:18:40 2021
+Terminated at Mon Dec  6 15:19:28 2021
+Results reported at Mon Dec  6 15:19:28 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   468.65 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             17.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   51 sec.
+    Turnaround time :                            48 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 20.926926
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.463864
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.281831
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 2.728373
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 2.331403
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 2.038300
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.002174
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 1.396629
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833429: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 16:48:55 2021
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 16:48:55 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 16:48:55 2021
+Terminated at Sun Dec 12 16:49:50 2021
+Results reported at Sun Dec 12 16:49:50 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   640.61 sec.
+    Max Memory :                                 27 MB
+    Average Memory :                             19.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   55 sec.
+    Turnaround time :                            55 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 22.425643
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 10.494694
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 5.276280
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 3.494648
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 3.526896
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 3.148107
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 2.953543
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 3.083466
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833434: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 16:51:36 2021
+Job was executed on host(s) <polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 16:51:36 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 16:51:36 2021
+Terminated at Sun Dec 12 16:51:38 2021
+Results reported at Sun Dec 12 16:51:38 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   53.93 sec.
+    Max Memory :                                 14 MB
+    Average Memory :                             9.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   2 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 0.174589
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 0.087719
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 0.044801
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 0.023722
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 0.020832
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 0.019364
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 0.020967
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 0.643636
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833505: <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 1;#BSUB -W 00:15;#BSUB -o omp_result.out;#BSUB -e omp_result.err;  OMP_NUM_THREADS=1 ./omp_fdtd-2d;OMP_NUM_THREADS=2 ./omp_fdtd-2d;OMP_NUM_THREADS=4 ./omp_fdtd-2d;OMP_NUM_THREADS=8 ./omp_fdtd-2d;OMP_NUM_THREADS=16 ./omp_fdtd-2d;OMP_NUM_THREADS=32 ./omp_fdtd-2d;OMP_NUM_THREADS=64 ./omp_fdtd-2d;OMP_NUM_THREADS=128 ./omp_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:35:25 2021
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:35:26 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:35:26 2021
+Terminated at Sun Dec 12 17:35:28 2021
+Results reported at Sun Dec 12 17:35:28 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1
+#BSUB -W 00:15
+#BSUB -o omp_result.out
+#BSUB -e omp_result.err
+ 
+OMP_NUM_THREADS=1 ./omp_fdtd-2d
+OMP_NUM_THREADS=2 ./omp_fdtd-2d
+OMP_NUM_THREADS=4 ./omp_fdtd-2d
+OMP_NUM_THREADS=8 ./omp_fdtd-2d
+OMP_NUM_THREADS=16 ./omp_fdtd-2d
+OMP_NUM_THREADS=32 ./omp_fdtd-2d
+OMP_NUM_THREADS=64 ./omp_fdtd-2d
+OMP_NUM_THREADS=128 ./omp_fdtd-2d
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   51.80 sec.
+    Max Memory :                                 14 MB
+    Average Memory :                             9.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   2 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+==========================
+THREADS: 1
+Time in seconds = 0.174603
+==========================
+
+==========================
+THREADS: 2
+Time in seconds = 0.087739
+==========================
+
+==========================
+THREADS: 4
+Time in seconds = 0.044754
+==========================
+
+==========================
+THREADS: 8
+Time in seconds = 0.023841
+==========================
+
+==========================
+THREADS: 16
+Time in seconds = 0.020985
+==========================
+
+==========================
+THREADS: 32
+Time in seconds = 0.019653
+==========================
+
+==========================
+THREADS: 64
+Time in seconds = 0.021882
+==========================
+
+==========================
+THREADS: 128
+Time in seconds = 0.678871
+==========================
+
+
+
+PS:
+
+Read file <omp_result.err> for stderr output of this job.
+

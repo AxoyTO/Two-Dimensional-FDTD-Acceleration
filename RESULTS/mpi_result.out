@@ -1,0 +1,1104 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833448: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpisubmit.pl -p 64 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpisubmit.pl -p 64 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:08:13 2021
+Job was executed on host(s) <19*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:08:13 2021
+                            <19*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <19*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <7*polus-c3-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:08:13 2021
+Terminated at Sun Dec 12 17:08:14 2021
+Results reported at Sun Dec 12 17:08:14 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+source /polusfs/setenv/setup.SMPI
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+mpisubmit.pl -p 64 mpi-fdtd_2d
+#mpiexec -n 2 mpi-fdtd_2d
+#mpiexec -n 4 mpi-fdtd_2d
+#mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+#mpiexec -n 32 mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            1 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833450: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; #mpisubmit.pl -p 64 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;mpiexec -n 32 mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; #mpisubmit.pl -p 64 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;mpiexec -n 32 mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:09:01 2021
+Job was executed on host(s) <19*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:09:02 2021
+                            <19*polus-c2-ib.bmc.hpc.cs.msu.ru>
+                            <19*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <7*polus-c3-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:09:02 2021
+Terminated at Sun Dec 12 17:09:05 2021
+Results reported at Sun Dec 12 17:09:05 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+source /polusfs/setenv/setup.SMPI
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+#mpisubmit.pl -p 64 mpi-fdtd_2d
+#mpiexec -n 2 mpi-fdtd_2d
+#mpiexec -n 4 mpi-fdtd_2d
+#mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+mpiexec -n 32 mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   0.71 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   6 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c1-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+19 total processes failed to start
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833470: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpiexec -n 1 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpiexec -n 1 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:20:19 2021
+Job was executed on host(s) <12*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:20:19 2021
+                            <8*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:20:19 2021
+Terminated at Sun Dec 12 17:20:21 2021
+Results reported at Sun Dec 12 17:20:21 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+#source /polusfs/setenv/setup.SMPI
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+mpiexec -n 1 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 2 mpi-fdtd_2d
+#mpiexec -n 4 mpi-fdtd_2d
+#mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+mpiexec -n 32 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.76 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             12.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   6 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: FDTD-2D/mpi-fdtd_2d
+Node: polus-c2-ib
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 32 slots
+that were requested by the application:
+  FDTD-2D/mpi-fdtd_2d
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833476: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpiexec -n 1 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; mpiexec -n 1 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:22:09 2021
+Job was executed on host(s) <12*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:22:09 2021
+                            <8*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:22:09 2021
+Terminated at Sun Dec 12 17:22:11 2021
+Results reported at Sun Dec 12 17:22:11 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+#source /polusfs/setenv/setup.SMPI
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+mpiexec -n 1 mpi-fdtd_2d
+#mpiexec -n 2 mpi-fdtd_2d
+#mpiexec -n 4 mpi-fdtd_2d
+#mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   0.39 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833479: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8;#source /polusfs/setenv/setup.SMPI; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi-fdtd_2d;#mpiexec -n 2 mpi-fdtd_2d;#mpiexec -n 4 mpi-fdtd_2d;#mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:22:59 2021
+Job was executed on host(s) <20*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:23:00 2021
+                            <20*polus-c2-ib.bmc.hpc.cs.msu.ru>
+                            <10*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <14*polus-c3-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:23:00 2021
+Terminated at Sun Dec 12 17:23:03 2021
+Results reported at Sun Dec 12 17:23:03 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+#source /polusfs/setenv/setup.SMPI
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi-fdtd_2d
+#mpiexec -n 2 mpi-fdtd_2d
+#mpiexec -n 4 mpi-fdtd_2d
+#mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   0.70 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833488: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpirun -n 1 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpirun -n 1 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi-fdtd_2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:26:45 2021
+Job was executed on host(s) <20*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:26:46 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:26:46 2021
+Terminated at Sun Dec 12 17:26:48 2021
+Results reported at Sun Dec 12 17:26:48 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpirun -n 1 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi-fdtd_2d
+#mpiexec -n 16 mpi-fdtd_2d
+#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   0.80 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             5.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpirun was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpirun command
+      line parameter option (remember that mpirun interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+2 total processes failed to start
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+4 total processes failed to start
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c4-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+8 total processes failed to start
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833493: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Done
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;#mpiexec -n 16 mpi-fdtd_2d;#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d;#mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:28:47 2021
+Job was executed on host(s) <10*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:29:24 2021
+                            <10*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:29:24 2021
+Terminated at Sun Dec 12 17:29:27 2021
+Results reported at Sun Dec 12 17:29:27 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+#mpiexec -n 16 mpi-fdtd_2d
+#mpiexec -n 32 FDTD-2D/mpi-fdtd_2d
+#mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.94 sec.
+    Max Memory :                                 43 MB
+    Average Memory :                             29.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                15
+    Run time :                                   4 sec.
+    Turnaround time :                            40 sec.
+
+The output (if any) follows:
+
+Time of task = 0.123305
+Time of task = 0.062814
+Time of task = 0.044576
+Time of task = 0.031262
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833499: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:33:07 2021
+Job was executed on host(s) <20*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:33:08 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:33:08 2021
+Terminated at Sun Dec 12 17:33:11 2021
+Results reported at Sun Dec 12 17:33:11 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   2.79 sec.
+    Max Memory :                                 30 MB
+    Average Memory :                             20.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                15
+    Run time :                                   7 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.123157
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.062337
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.043297
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.019592
+==========================
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c3-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+16 total processes failed to start
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 32 slots
+that were requested by the application:
+  mpi-fdtd_2d
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 64 slots
+that were requested by the application:
+  mpi-fdtd_2d
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833501: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:34:00 2021
+Job was executed on host(s) <20*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:34:00 2021
+                            <19*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <10*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <15*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:34:00 2021
+Terminated at Sun Dec 12 17:34:05 2021
+Results reported at Sun Dec 12 17:34:05 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d
+OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   6.30 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             12.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   4 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.123147
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.062387
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.042977
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.016126
+==========================
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c3-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+16 total processes failed to start
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c3-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+20 total processes failed to start
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c3-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+20 total processes failed to start
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833503: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;#OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;#OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d;#OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d;#OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:34:46 2021
+Job was executed on host(s) <10*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:34:46 2021
+                            <10*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:34:46 2021
+Terminated at Sun Dec 12 17:34:49 2021
+Results reported at Sun Dec 12 17:34:49 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi-fdtd_2d
+#OMP_NUM_THREADS=1 mpiexec -n 32 mpi-fdtd_2d
+#OMP_NUM_THREADS=1 mpiexec -n 64 mpi-fdtd_2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   3.44 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             12.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   9 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.125661
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.063946
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.048151
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.032513
+==========================
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c3-ib
+Executable: mpi-fdtd_2d
+--------------------------------------------------------------------------
+10 total processes failed to start
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833512: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;#OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;#OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 20 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;#OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;#OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:37:45 2021
+Job was executed on host(s) <20*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:37:45 2021
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:37:45 2021
+Terminated at Sun Dec 12 17:37:47 2021
+Results reported at Sun Dec 12 17:37:47 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 20 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d
+#OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d
+#OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.24 sec.
+    Max Memory :                                 27 MB
+    Average Memory :                             18.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                15
+    Run time :                                   6 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.123215
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.062312
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.042987
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.021899
+==========================
+==========================
+PROCESSES: 16
+Time in seconds = 0.028208
+==========================
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833514: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d> in cluster <MSUCluster> Done
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:38:54 2021
+Job was executed on host(s) <20*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:38:54 2021
+                            <20*polus-c3-ib.bmc.hpc.cs.msu.ru>
+                            <19*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <5*polus-c1-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:38:54 2021
+Terminated at Sun Dec 12 17:39:00 2021
+Results reported at Sun Dec 12 17:39:00 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20.97 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             12.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   7 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.123524
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.062203
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.031292
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.031029
+==========================
+==========================
+PROCESSES: 16
+Time in seconds = 0.015980
+==========================
+==========================
+PROCESSES: 32
+Time in seconds = 0.013654
+==========================
+==========================
+PROCESSES: 64
+Time in seconds = 0.009357
+==========================
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 833515: <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 128 mpi_fdtd-2d> in cluster <MSUCluster> Exited
+
+Job <module load SpectrumMPI;export LC_CTYPE=en_US.UTF-8;export LC_ALL=en_US.UTF-8; #BSUB -n 64 -q normal;#BSUB -W 0:40;#BSUB  -o mpi_result.out;#BSUB  -e mpi_result.err; OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d;OMP_NUM_THREADS=1 mpiexec -n 128 mpi_fdtd-2d> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:39:43 2021
+Job was executed on host(s) <20*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skpod21-323-18> in cluster <MSUCluster> at Sun Dec 12 17:39:43 2021
+                            <20*polus-c3-ib.bmc.hpc.cs.msu.ru>
+                            <20*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <4*polus-c1-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18> was used as the home directory.
+</home_edu/edu-cmc-skpod21-323/edu-cmc-skpod21-323-18/FDTD-2D> was used as the working directory.
+Started at Sun Dec 12 17:39:43 2021
+Terminated at Sun Dec 12 17:39:50 2021
+Results reported at Sun Dec 12 17:39:50 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+module load SpectrumMPI
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+#BSUB -n 64 -q normal
+#BSUB -W 0:40
+#BSUB  -o mpi_result.out
+#BSUB  -e mpi_result.err
+
+OMP_NUM_THREADS=1 mpiexec -n 1 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 2 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 4 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 8 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 16 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 32 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 64 mpi_fdtd-2d
+OMP_NUM_THREADS=1 mpiexec -n 128 mpi_fdtd-2d
+
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   21.39 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             12.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   7 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+==========================
+PROCESSES: 1
+Time in seconds = 0.123513
+==========================
+==========================
+PROCESSES: 2
+Time in seconds = 0.062055
+==========================
+==========================
+PROCESSES: 4
+Time in seconds = 0.031319
+==========================
+==========================
+PROCESSES: 8
+Time in seconds = 0.030763
+==========================
+==========================
+PROCESSES: 16
+Time in seconds = 0.028443
+==========================
+==========================
+PROCESSES: 32
+Time in seconds = 0.015999
+==========================
+==========================
+PROCESSES: 64
+Time in seconds = 0.009422
+==========================
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 128 slots
+that were requested by the application:
+  mpi_fdtd-2d
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <mpi_result.err> for stderr output of this job.
+
